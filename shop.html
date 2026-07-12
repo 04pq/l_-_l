@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CRIMSON CFW | Shop</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+
+<link rel="stylesheet" href="buyabtn.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <style>
+        html{
+    scroll-behavior:smooth;
+}
+
+.categories{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.category{
+    text-decoration:none;
+}
+
+.section-title{
+    width:100%;
+    text-align:center;
+    margin:70px 0 35px;
+}
+
+.section-title h2{
+    color:#fff;
+    font-size:42px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+    </style>
+
+<!--================ NAVBAR ================-->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <img src="pc.png" alt="Logo">
+
+        <h2>CRIMSON CFW</h2>
+    </div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="shop.html" class="active">Shop</a>
+
+        <a href="gallery.html">Gallery</a>
+
+        <a href="rules.html" class="active">Rules</a>
+
+        <a href="index.html#contact">Contact</a>
+
+    </nav>
+
+        <a class="join-btn" href="https://discord.com/invite/CMZRP" target="_blank">
+            Join Server
+        </a>
+
+</header>
+
+
+<!--================ SHOP HERO ================-->
+
+<section class="shop-hero">
+
+    <div class="shop-overlay"></div>
+
+    <div class="shop-content">
+
+        <span>
+
+            OFFICIAL CRIMSON CFW  STORE
+
+        </span>
+
+        <h1>
+
+            Server Store
+
+        </h1>
+
+        <p>
+
+            Support CRIMSON CFW and unlock exclusive packages,
+            memberships and premium content.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!--================ CATEGORIES ================-->
+
+<section class="categories">
+
+    <a href="#top" class="category active">
+        All
+    </a>
+
+    <a href="#vehicles" class="category">
+        Vehicles
+    </a>
+
+    <a href="#skins" class="category">
+        Skins
+    </a>
+
+    <a href="#business" class="category">
+        Business
+    </a>
+
+</section>
+
+<!--================ CARS ================-->
+
+<section id="vehicles" class="products-grid">
+        <!-- Product 1 -->
+
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="M5 G60.png" alt="VIP Membership">
+
+            <span class="product-badge">
+
+                BEST SELLER
+
+            </span>
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                M5 G60
+            </h3>
+
+            <p>
+
+                Unlock premium perks, exclusive rewards and special in-game benefits.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $ 35.00
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()" >
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Product 2 -->
+
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="911 Turbo S.png" alt="Vehicle Pack">
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+
+                911 Turbo S
+
+            </h3>
+
+            <p>
+
+                Receive an exclusive collection of premium vehicles.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $24.99
+
+                </span>
+
+                <a href="#" class="buy-btn"  onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Product 3 -->
+
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="Camaro ZL1 2012.png" alt="Starter Coins">
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                Camaro ZL1 2012
+
+            </h3>
+
+            <p>
+
+                Get coins to purchase exclusive in-game content.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $30.00
+
+                </span>
+
+                <a href="#" class="buy-btn"  onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Product 4 -->
+
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="rx7 fd3s.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                RX7 FD3S
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $24.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+            <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="VIPER ACR 2016.png" alt="Limited Bundle">
+
+            <span class="product-badge limited">
+
+                LIMITED
+
+            </span>
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                VIPER ACR 2016
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $59.00
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+      <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="Ford Mustang S650.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                Mustang S650
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $24.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="G63 2022.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                G63 2022
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $34.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="Exorcist 2019.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                Exorcist 2019
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $34.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+        <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="Raptor 2023.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                Raptor 2023
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $34.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+     <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="M3 G80.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+                M3 G80
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $24.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+         <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="C63 AMG Black Series .png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+               C63 AMG Black Series
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $29.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+             <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="Skyline R33 GTR.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+               Skyline R33 GTR
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $29.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+       <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="LFA .png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+               LFA
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $34.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="S63 Mansory 2018 .png " alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+               S63 Mansory
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $30.00
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+        <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="charger srt 170b.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+               Charger SRT 170B
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $29.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()"> 
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+            <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="musteng gt500 2019.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+              Mustang GT500
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $29.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+     <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="Dubsta 6x6.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+             Dubsta 6x6
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $24.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="product-card">
+
+        <div class="product-image">
+
+            <img src="ram trx 2021.png" alt="Limited Bundle">
+
+
+
+        </div>
+
+        <div class="product-info">
+
+            <h3>
+
+             RAM TRX 2021
+
+            </h3>
+
+            <p>
+
+                A complete premium bundle available for a limited time only.
+
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+
+                    $29.99
+
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+
+                    Purchase
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</section>
+<section class="section-title">
+    <h2 id="skins">Character Skins</h2>
+</section>
+
+<section class="products-gridskns">
+
+    <div class="product-card">
+
+        <div class="product-info">
+            <img src="skn1.png" alt="Skin">
+        </div>
+
+        <div class="product-info">
+
+            <h3>#1</h3>
+
+            <p>
+                Premium outfit 
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+                    $29.99
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+                    Purchase
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="product-card">
+
+        <div class="product-info">
+            <img src="skn2.png" alt="Skin">
+        </div>
+
+        <div class="product-info">
+
+            <h3>#2</h3>
+
+            <p>
+                Premium outfit 2
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+                    $29.99
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+                    Purchase
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+        <div class="product-card">
+
+        <div class="product-info">
+            <img src="skn3.png" alt="Skin">
+        </div>
+
+        <div class="product-info">
+
+            <h3>#3</h3>
+
+            <p>
+                Premium outfit 3
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+                    $29.99
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+                    Purchase
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+        <div class="product-card">
+
+        <div class="product-info">
+            <img src="skn4.png" alt="Skin">
+        </div>
+
+        <div class="product-info">
+
+            <h3>#4</h3>
+
+            <p>
+                Premium outfit 4
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+                    $29.99
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+                    Purchase
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section-title">
+    <h2 id="business">Businesses</h2>
+</section>
+
+<section class="products-grid">
+
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="العقاري SOLD OUT .png" alt="Business">
+        </div>
+
+        <div class="product-info">
+
+
+
+            <h3>العقاري</h3>
+
+            <div class="product-bottom">
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="الورشة  SOLD OUT.png" alt="Business">
+        </div>
+
+        <div class="product-info">
+
+            <h3>الورشة</h3>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+        <div class="product-card">
+
+        <div class="product-image">
+            <img src="بيت خاص.png" alt="Business">
+        </div>
+
+        <div class="product-info">
+
+            <h3>بيت خاص.</h3>
+
+            <p>
+                Become the owner of a premium dealership.
+            </p>
+
+            <div class="product-bottom">
+
+                <span class="price">
+                    $35
+                </span>
+
+                <a href="#" class="buy-btn" onclick="openBuyModal()">
+                    Purchase
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<script>
+function openBuyModal(){
+    document.getElementById("buyModal").style.display = "flex";
+}
+
+function closeBuyModal(){
+    document.getElementById("buyModal").style.display = "none";
+}
+</script>
+
+
+<!-- BUY POPUP -->
+
+<div class="buy-modal" id="buyModal">
+
+    <div class="buy-box">
+
+        <h2>شراء المنتج</h2>
+
+        <p>
+            لإتمام عملية شراء هذا المنتج يرجى فتح تذكرة في ديسكورد كريمسون.
+        </p>
+
+        <a href="https://discord.com/channels/941814197581381704/1518588421348655305"
+           target="_blank"
+           class="ticket-btn">
+            اضغط هنا لفتح تذكرة
+        </a>
+
+        <button class="cancel-btn"
+                onclick="closeBuyModal()">
+            إلغاء
+        </button>
+
+    </div>
+
+</div>
+
+
+
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <div class="footer-grid">
+
+        <div>
+
+            <img src="pc.png" class="footer-logo">
+
+            <p>
+
+                CRIMSON CFW 
+
+                <br>
+
+                Every Choice Has Consequences.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>
+
+                Navigation
+
+            </h3>
+
+            <a href="index.html">
+
+                Home
+
+            </a>
+
+            <a href="shop.html">
+
+                Shop
+
+            </a>
+
+            <a href="gallery.html">
+
+                Gallery
+
+            </a>
+
+            <a href="rules.html">
+
+                Rules
+
+            </a>
+
+        </div>
+
+        <div>
+
+            <h3 href="https://discord.gg/CMZRP">
+
+                Community
+
+            </h3>
+
+            <a href="https://discord.gg/CMZRP">
+
+                Discord
+
+            </a>
+
+
+            <a href="https://discord.gg/BZmDkuXtA
+">
+
+                Open Ticket
+
+            </a>
+
+        </div>
+
+        <div>
+
+            <h3 href="https://discord.gg/BZmDkuXtA">
+
+                Support
+
+            </h3>
+
+            <a href="index.html#faq">
+
+                FAQ
+
+            </a>
+
+            <a href="index.html#contact">
+
+                Contact
+
+            </a>
+
+            <a href="https://discord.com/invite/CMZRP">
+
+                Join Server
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 CRIMSON CFW . All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
